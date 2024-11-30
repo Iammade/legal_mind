@@ -13,7 +13,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Configuration
-PDF_DIRECTORY = r'e:\fmp\pdfs'  # Directory containing all PDFs
+PDF_DIRECTORY = r'pdf'  # Directory containing all PDFs
 ALLOWED_EXTENSIONS = {'pdf'}
 MAX_CONTEXT_LENGTH = 8000  # Maximum context length for API
 
